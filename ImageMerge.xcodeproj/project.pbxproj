@@ -440,7 +440,7 @@
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /usr/local/bin/zsh;
+			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 		FF896297229D7809009360BD /* ShellScript */ = {
@@ -457,7 +457,7 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /usr/local/bin/zsh;
+			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage outdated --xcode-warnings | 2>/dev/null\n";
 		};
 /* End PBXShellScriptBuildPhase section */
