@@ -38,6 +38,16 @@
                ReferencedContainer = "container:ImageMerge.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FF896269229D696A009360BD"
+               BuildableName = "ImageMergeFrameworkTests.xctest"
+               BlueprintName = "ImageMergeFrameworkTests"
+               ReferencedContainer = "container:ImageMerge.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

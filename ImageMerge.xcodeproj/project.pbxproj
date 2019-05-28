@@ -37,6 +37,11 @@
 		FF89629B229D791A009360BD /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896284229D73A0009360BD /* RxCocoa.framework */; };
 		FF89629C229D791A009360BD /* RxRelay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896282229D73A0009360BD /* RxRelay.framework */; };
 		FF89629D229D791A009360BD /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896283229D73A0009360BD /* RxSwift.framework */; };
+		FF89629E229DA471009360BD /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896288229D73D1009360BD /* RxBlocking.framework */; };
+		FF89629F229DA471009360BD /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896289229D73D1009360BD /* RxTest.framework */; };
+		FF8962A0229DA471009360BD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896284229D73A0009360BD /* RxCocoa.framework */; };
+		FF8962A1229DA471009360BD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896282229D73A0009360BD /* RxRelay.framework */; };
+		FF8962A2229DA471009360BD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896283229D73A0009360BD /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF89626B229D696B009360BD /* ImageMergeFramework.framework in Frameworks */,
+				FF89629E229DA471009360BD /* RxBlocking.framework in Frameworks */,
+				FF89629F229DA471009360BD /* RxTest.framework in Frameworks */,
+				FF8962A0229DA471009360BD /* RxCocoa.framework in Frameworks */,
+				FF8962A1229DA471009360BD /* RxRelay.framework in Frameworks */,
+				FF8962A2229DA471009360BD /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,6 +828,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XNB472P6E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ImageMergeFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -838,6 +852,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XNB472P6E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ImageMergeFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
