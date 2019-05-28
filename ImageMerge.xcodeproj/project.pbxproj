@@ -8,10 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		FF89623E229C1A96009360BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF89623D229C1A96009360BD /* AppDelegate.swift */; };
-		FF896240229C1A96009360BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF89623F229C1A96009360BD /* ViewController.swift */; };
 		FF896245229C1A97009360BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF896244229C1A97009360BD /* Assets.xcassets */; };
 		FF896248229C1A97009360BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF896246229C1A97009360BD /* LaunchScreen.storyboard */; };
 		FF896253229C1A97009360BD /* ImageMergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF896252229C1A97009360BD /* ImageMergeTests.swift */; };
+		FF89626B229D696B009360BD /* ImageMergeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896262229D696A009360BD /* ImageMergeFramework.framework */; };
+		FF896272229D696B009360BD /* ImageMergeFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF896271229D696B009360BD /* ImageMergeFrameworkTests.swift */; };
+		FF896274229D696B009360BD /* ImageMergeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FF896264229D696A009360BD /* ImageMergeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF896277229D696B009360BD /* ImageMergeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896262229D696A009360BD /* ImageMergeFramework.framework */; };
+		FF896278229D696B009360BD /* ImageMergeFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF896262229D696A009360BD /* ImageMergeFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF896280229D69A6009360BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF89623F229C1A96009360BD /* ViewController.swift */; };
+		FF896285229D73A0009360BD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896282229D73A0009360BD /* RxRelay.framework */; };
+		FF896286229D73A0009360BD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896283229D73A0009360BD /* RxSwift.framework */; };
+		FF896287229D73A0009360BD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896284229D73A0009360BD /* RxCocoa.framework */; };
+		FF89628A229D73D1009360BD /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896288229D73D1009360BD /* RxBlocking.framework */; };
+		FF89628B229D73D1009360BD /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896289229D73D1009360BD /* RxTest.framework */; };
+		FF89628C229D73E3009360BD /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896288229D73D1009360BD /* RxBlocking.framework */; };
+		FF89628D229D73E3009360BD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896284229D73A0009360BD /* RxCocoa.framework */; };
+		FF89628E229D73E3009360BD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896282229D73A0009360BD /* RxRelay.framework */; };
+		FF89628F229D73E3009360BD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896283229D73A0009360BD /* RxSwift.framework */; };
+		FF896290229D73E3009360BD /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896289229D73D1009360BD /* RxTest.framework */; };
+		FF896291229D75BF009360BD /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896288229D73D1009360BD /* RxBlocking.framework */; };
+		FF896292229D75BF009360BD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896284229D73A0009360BD /* RxCocoa.framework */; };
+		FF896293229D75BF009360BD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896282229D73A0009360BD /* RxRelay.framework */; };
+		FF896294229D75BF009360BD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896283229D73A0009360BD /* RxSwift.framework */; };
+		FF896295229D75BF009360BD /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896289229D73D1009360BD /* RxTest.framework */; };
+		FF896299229D791A009360BD /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896288229D73D1009360BD /* RxBlocking.framework */; };
+		FF89629A229D791A009360BD /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896289229D73D1009360BD /* RxTest.framework */; };
+		FF89629B229D791A009360BD /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896284229D73A0009360BD /* RxCocoa.framework */; };
+		FF89629C229D791A009360BD /* RxRelay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896282229D73A0009360BD /* RxRelay.framework */; };
+		FF89629D229D791A009360BD /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896283229D73A0009360BD /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +47,56 @@
 			remoteGlobalIDString = FF896239229C1A96009360BD;
 			remoteInfo = ImageMerge;
 		};
+		FF89626C229D696B009360BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF896232229C1A96009360BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF896261229D696A009360BD;
+			remoteInfo = ImageMergeFramework;
+		};
+		FF89626E229D696B009360BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF896232229C1A96009360BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF896239229C1A96009360BD;
+			remoteInfo = ImageMerge;
+		};
+		FF896275229D696B009360BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF896232229C1A96009360BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF896261229D696A009360BD;
+			remoteInfo = ImageMergeFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF89627C229D696B009360BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF896278229D696B009360BD /* ImageMergeFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF896298229D78F8009360BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				FF896299229D791A009360BD /* RxBlocking.framework in CopyFiles */,
+				FF89629A229D791A009360BD /* RxTest.framework in CopyFiles */,
+				FF89629B229D791A009360BD /* RxCocoa.framework in CopyFiles */,
+				FF89629C229D791A009360BD /* RxRelay.framework in CopyFiles */,
+				FF89629D229D791A009360BD /* RxSwift.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FF89623A229C1A96009360BD /* ImageMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +108,17 @@
 		FF89624E229C1A97009360BD /* ImageMergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF896252229C1A97009360BD /* ImageMergeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMergeTests.swift; sourceTree = "<group>"; };
 		FF896254229C1A97009360BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF896262229D696A009360BD /* ImageMergeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageMergeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF896264229D696A009360BD /* ImageMergeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageMergeFramework.h; sourceTree = "<group>"; };
+		FF896265229D696A009360BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF89626A229D696A009360BD /* ImageMergeFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMergeFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF896271229D696B009360BD /* ImageMergeFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMergeFrameworkTests.swift; sourceTree = "<group>"; };
+		FF896273229D696B009360BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF896282229D73A0009360BD /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		FF896283229D73A0009360BD /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		FF896284229D73A0009360BD /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		FF896288229D73D1009360BD /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		FF896289229D73D1009360BD /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +126,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF896277229D696B009360BD /* ImageMergeFramework.framework in Frameworks */,
+				FF896285229D73A0009360BD /* RxRelay.framework in Frameworks */,
+				FF896286229D73A0009360BD /* RxSwift.framework in Frameworks */,
+				FF896287229D73A0009360BD /* RxCocoa.framework in Frameworks */,
+				FF89628A229D73D1009360BD /* RxBlocking.framework in Frameworks */,
+				FF89628B229D73D1009360BD /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +139,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF896291229D75BF009360BD /* RxBlocking.framework in Frameworks */,
+				FF896292229D75BF009360BD /* RxCocoa.framework in Frameworks */,
+				FF896293229D75BF009360BD /* RxRelay.framework in Frameworks */,
+				FF896294229D75BF009360BD /* RxSwift.framework in Frameworks */,
+				FF896295229D75BF009360BD /* RxTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF89625F229D696A009360BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF89628C229D73E3009360BD /* RxBlocking.framework in Frameworks */,
+				FF89628D229D73E3009360BD /* RxCocoa.framework in Frameworks */,
+				FF89628E229D73E3009360BD /* RxRelay.framework in Frameworks */,
+				FF89628F229D73E3009360BD /* RxSwift.framework in Frameworks */,
+				FF896290229D73E3009360BD /* RxTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF896267229D696A009360BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF89626B229D696B009360BD /* ImageMergeFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +175,10 @@
 			children = (
 				FF89623C229C1A96009360BD /* ImageMerge */,
 				FF896251229C1A97009360BD /* ImageMergeTests */,
+				FF896263229D696A009360BD /* ImageMergeFramework */,
+				FF896270229D696B009360BD /* ImageMergeFrameworkTests */,
 				FF89623B229C1A96009360BD /* Products */,
+				FF896281229D73A0009360BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +187,8 @@
 			children = (
 				FF89623A229C1A96009360BD /* ImageMerge.app */,
 				FF89624E229C1A97009360BD /* ImageMergeTests.xctest */,
+				FF896262229D696A009360BD /* ImageMergeFramework.framework */,
+				FF89626A229D696A009360BD /* ImageMergeFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,7 +197,6 @@
 			isa = PBXGroup;
 			children = (
 				FF89623D229C1A96009360BD /* AppDelegate.swift */,
-				FF89623F229C1A96009360BD /* ViewController.swift */,
 				FF896244229C1A97009360BD /* Assets.xcassets */,
 				FF896246229C1A97009360BD /* LaunchScreen.storyboard */,
 				FF896249229C1A97009360BD /* Info.plist */,
@@ -93,7 +213,49 @@
 			path = ImageMergeTests;
 			sourceTree = "<group>";
 		};
+		FF896263229D696A009360BD /* ImageMergeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				FF89623F229C1A96009360BD /* ViewController.swift */,
+				FF896264229D696A009360BD /* ImageMergeFramework.h */,
+				FF896265229D696A009360BD /* Info.plist */,
+			);
+			path = ImageMergeFramework;
+			sourceTree = "<group>";
+		};
+		FF896270229D696B009360BD /* ImageMergeFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF896271229D696B009360BD /* ImageMergeFrameworkTests.swift */,
+				FF896273229D696B009360BD /* Info.plist */,
+			);
+			path = ImageMergeFrameworkTests;
+			sourceTree = "<group>";
+		};
+		FF896281229D73A0009360BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF896288229D73D1009360BD /* RxBlocking.framework */,
+				FF896289229D73D1009360BD /* RxTest.framework */,
+				FF896284229D73A0009360BD /* RxCocoa.framework */,
+				FF896282229D73A0009360BD /* RxRelay.framework */,
+				FF896283229D73A0009360BD /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF89625D229D696A009360BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF896274229D696B009360BD /* ImageMergeFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		FF896239229C1A96009360BD /* ImageMerge */ = {
@@ -103,10 +265,14 @@
 				FF896236229C1A96009360BD /* Sources */,
 				FF896237229C1A96009360BD /* Frameworks */,
 				FF896238229C1A96009360BD /* Resources */,
+				FF89627C229D696B009360BD /* Embed Frameworks */,
+				FF896296229D7660009360BD /* ShellScript */,
+				FF896297229D7809009360BD /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FF896276229D696B009360BD /* PBXTargetDependency */,
 			);
 			name = ImageMerge;
 			productName = ImageMerge;
@@ -131,6 +297,44 @@
 			productReference = FF89624E229C1A97009360BD /* ImageMergeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FF896261229D696A009360BD /* ImageMergeFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF896279229D696B009360BD /* Build configuration list for PBXNativeTarget "ImageMergeFramework" */;
+			buildPhases = (
+				FF89625D229D696A009360BD /* Headers */,
+				FF89625E229D696A009360BD /* Sources */,
+				FF89625F229D696A009360BD /* Frameworks */,
+				FF896260229D696A009360BD /* Resources */,
+				FF896298229D78F8009360BD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageMergeFramework;
+			productName = ImageMergeFramework;
+			productReference = FF896262229D696A009360BD /* ImageMergeFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF896269229D696A009360BD /* ImageMergeFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF89627D229D696B009360BD /* Build configuration list for PBXNativeTarget "ImageMergeFrameworkTests" */;
+			buildPhases = (
+				FF896266229D696A009360BD /* Sources */,
+				FF896267229D696A009360BD /* Frameworks */,
+				FF896268229D696A009360BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF89626D229D696B009360BD /* PBXTargetDependency */,
+				FF89626F229D696B009360BD /* PBXTargetDependency */,
+			);
+			name = ImageMergeFrameworkTests;
+			productName = ImageMergeFrameworkTests;
+			productReference = FF89626A229D696A009360BD /* ImageMergeFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -145,6 +349,13 @@
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					FF89624D229C1A97009360BD = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FF896239229C1A96009360BD;
+					};
+					FF896261229D696A009360BD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FF896269229D696A009360BD = {
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = FF896239229C1A96009360BD;
 					};
@@ -165,6 +376,8 @@
 			targets = (
 				FF896239229C1A96009360BD /* ImageMerge */,
 				FF89624D229C1A97009360BD /* ImageMergeTests */,
+				FF896261229D696A009360BD /* ImageMergeFramework */,
+				FF896269229D696A009360BD /* ImageMergeFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,14 +399,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF896260229D696A009360BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF896268229D696A009360BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF896296229D7660009360BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRelay.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/local/bin/zsh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		FF896297229D7809009360BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/local/bin/zsh;
+			shellScript = "/usr/local/bin/carthage outdated --xcode-warnings | 2>/dev/null\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF896236229C1A96009360BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF896240229C1A96009360BD /* ViewController.swift in Sources */,
 				FF89623E229C1A96009360BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +479,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF89625E229D696A009360BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF896280229D69A6009360BD /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF896266229D696A009360BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF896272229D696B009360BD /* ImageMergeFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,6 +502,21 @@
 			isa = PBXTargetDependency;
 			target = FF896239229C1A96009360BD /* ImageMerge */;
 			targetProxy = FF89624F229C1A97009360BD /* PBXContainerItemProxy */;
+		};
+		FF89626D229D696B009360BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF896261229D696A009360BD /* ImageMergeFramework */;
+			targetProxy = FF89626C229D696B009360BD /* PBXContainerItemProxy */;
+		};
+		FF89626F229D696B009360BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF896239229C1A96009360BD /* ImageMerge */;
+			targetProxy = FF89626E229D696B009360BD /* PBXContainerItemProxy */;
+		};
+		FF896276229D696B009360BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF896261229D696A009360BD /* ImageMergeFramework */;
+			targetProxy = FF896275229D696B009360BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -347,9 +651,15 @@
 		FF896258229C1A97009360BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XNB472P6E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ImageMerge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,6 +667,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "oskar-apps.ImageMerge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,9 +676,15 @@
 		FF896259229C1A97009360BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XNB472P6E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ImageMerge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,6 +692,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "oskar-apps.ImageMerge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -387,6 +705,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XNB472P6E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ImageMergeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -408,6 +730,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XNB472P6E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ImageMergeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -415,6 +741,110 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "oskar-apps.ImageMergeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageMerge.app/ImageMerge";
+			};
+			name = Release;
+		};
+		FF89627A229D696B009360BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6XNB472P6E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ImageMergeFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oskar-apps.ImageMergeFramework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF89627B229D696B009360BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6XNB472P6E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ImageMergeFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oskar-apps.ImageMergeFramework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF89627E229D696B009360BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XNB472P6E;
+				INFOPLIST_FILE = ImageMergeFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oskar-apps.ImageMergeFrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageMerge.app/ImageMerge";
+			};
+			name = Debug;
+		};
+		FF89627F229D696B009360BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XNB472P6E;
+				INFOPLIST_FILE = ImageMergeFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oskar-apps.ImageMergeFrameworkTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +878,24 @@
 			buildConfigurations = (
 				FF89625B229C1A97009360BD /* Debug */,
 				FF89625C229C1A97009360BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF896279229D696B009360BD /* Build configuration list for PBXNativeTarget "ImageMergeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF89627A229D696B009360BD /* Debug */,
+				FF89627B229D696B009360BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF89627D229D696B009360BD /* Build configuration list for PBXNativeTarget "ImageMergeFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF89627E229D696B009360BD /* Debug */,
+				FF89627F229D696B009360BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,14 +7,14 @@
 //
 
 import UIKit
+import Photos
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
 
 }
 
