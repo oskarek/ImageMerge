@@ -20,20 +20,14 @@
 		FF896285229D73A0009360BD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896282229D73A0009360BD /* RxRelay.framework */; };
 		FF896286229D73A0009360BD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896283229D73A0009360BD /* RxSwift.framework */; };
 		FF896287229D73A0009360BD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896284229D73A0009360BD /* RxCocoa.framework */; };
-		FF89628A229D73D1009360BD /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896288229D73D1009360BD /* RxBlocking.framework */; };
-		FF89628B229D73D1009360BD /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896289229D73D1009360BD /* RxTest.framework */; };
-		FF89628C229D73E3009360BD /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896288229D73D1009360BD /* RxBlocking.framework */; };
 		FF89628D229D73E3009360BD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896284229D73A0009360BD /* RxCocoa.framework */; };
 		FF89628E229D73E3009360BD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896282229D73A0009360BD /* RxRelay.framework */; };
 		FF89628F229D73E3009360BD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896283229D73A0009360BD /* RxSwift.framework */; };
-		FF896290229D73E3009360BD /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896289229D73D1009360BD /* RxTest.framework */; };
 		FF896291229D75BF009360BD /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896288229D73D1009360BD /* RxBlocking.framework */; };
 		FF896292229D75BF009360BD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896284229D73A0009360BD /* RxCocoa.framework */; };
 		FF896293229D75BF009360BD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896282229D73A0009360BD /* RxRelay.framework */; };
 		FF896294229D75BF009360BD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896283229D73A0009360BD /* RxSwift.framework */; };
 		FF896295229D75BF009360BD /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF896289229D73D1009360BD /* RxTest.framework */; };
-		FF896299229D791A009360BD /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896288229D73D1009360BD /* RxBlocking.framework */; };
-		FF89629A229D791A009360BD /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896289229D73D1009360BD /* RxTest.framework */; };
 		FF89629B229D791A009360BD /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896284229D73A0009360BD /* RxCocoa.framework */; };
 		FF89629C229D791A009360BD /* RxRelay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896282229D73A0009360BD /* RxRelay.framework */; };
 		FF89629D229D791A009360BD /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF896283229D73A0009360BD /* RxSwift.framework */; };
@@ -93,8 +87,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				FF896299229D791A009360BD /* RxBlocking.framework in CopyFiles */,
-				FF89629A229D791A009360BD /* RxTest.framework in CopyFiles */,
 				FF89629B229D791A009360BD /* RxCocoa.framework in CopyFiles */,
 				FF89629C229D791A009360BD /* RxRelay.framework in CopyFiles */,
 				FF89629D229D791A009360BD /* RxSwift.framework in CopyFiles */,
@@ -135,8 +127,6 @@
 				FF896285229D73A0009360BD /* RxRelay.framework in Frameworks */,
 				FF896286229D73A0009360BD /* RxSwift.framework in Frameworks */,
 				FF896287229D73A0009360BD /* RxCocoa.framework in Frameworks */,
-				FF89628A229D73D1009360BD /* RxBlocking.framework in Frameworks */,
-				FF89628B229D73D1009360BD /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,11 +146,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF89628C229D73E3009360BD /* RxBlocking.framework in Frameworks */,
 				FF89628D229D73E3009360BD /* RxCocoa.framework in Frameworks */,
 				FF89628E229D73E3009360BD /* RxRelay.framework in Frameworks */,
 				FF89628F229D73E3009360BD /* RxSwift.framework in Frameworks */,
-				FF896290229D73E3009360BD /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,20 +422,16 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
 			);
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRelay.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
